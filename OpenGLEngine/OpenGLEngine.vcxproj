@@ -145,6 +145,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\command.cpp" />
+    <ClCompile Include="..\src\command_list.cpp" />
+    <ClCompile Include="..\src\command_list_deque.cpp" />
     <ClCompile Include="..\src\glad.c" />
     <ClCompile Include="..\src\GLCamera.cpp" />
     <ClCompile Include="..\src\GLGeometry.cpp" />
@@ -154,8 +157,12 @@
     <ClCompile Include="..\src\GLWindow.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\stb_image.cpp" />
+    <ClCompile Include="px_mem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\command.h" />
+    <ClInclude Include="..\include\command_list.h" />
+    <ClInclude Include="..\include\command_list_deque.h" />
     <ClInclude Include="..\include\Constants.h" />
     <ClInclude Include="..\include\GLCamera.h" />
     <ClInclude Include="..\include\GLGeometry.h" />
